@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d | while read dir; do chmod a+x "$dir"; done
+for dir in $(find . -type d) do chmod a+x "$dir"
