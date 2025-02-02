@@ -1,0 +1,3 @@
+#!/bin/bash
+OLLEH_PERMISSIONS=$(stat -c "%a" olleh)
+chmod $OLLEH_PERMISSIONS hello
