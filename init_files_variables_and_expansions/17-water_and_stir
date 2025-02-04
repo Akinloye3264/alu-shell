@@ -1,2 +1,6 @@
 #!/bin/bash
-printf '%o\n' $(( 5#$( echo $WATER | tr water 01234) + 5#$( echo $STIR | tr stir. 01234 ) )) | tr 01234567 behlnort
+WATER_DECIMAL=$(echo "ibase=32; $WATER" | bc)
+STIR_DECIMAL=$(echo "ibase=10; $STIR" | bc)
+SUM=$((WATER_DECIMAL + STIR_DECIMAL))
+RESULT=$(echo "obase=16; $SUM" | bc)
+echo "$RESULT"
