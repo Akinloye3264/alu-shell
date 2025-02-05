@@ -1,4 +1,4 @@
-#!/usr/bin/ env bash
+#!/usr/bin/env bash
 #This sxript contains best school 10 times using while loop
 
 count=1
