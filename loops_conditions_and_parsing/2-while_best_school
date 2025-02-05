@@ -2,7 +2,7 @@
 #this script writes Best school multiple times using while loop
 
 count=1
-while ( $count -le 10 )
+while [ $count -le 10 ]
  do
    echo "Best School"
  ((count++))
