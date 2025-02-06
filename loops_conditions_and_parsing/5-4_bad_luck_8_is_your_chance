@@ -1,4 +1,4 @@
-#!/usr/bin/ env bash
+#!/usr/bin/env bash
 #This script loops from 1-10 and contains some contents
 
 count=1
