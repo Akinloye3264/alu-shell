@@ -2,4 +2,4 @@
 #script to  kill the process 7-highlander.
 
 
-pkill -KILL  "7-highlander"
+pkill -f  "7-highlander"
